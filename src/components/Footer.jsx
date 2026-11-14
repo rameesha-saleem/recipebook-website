@@ -4,10 +4,6 @@ import { Heart } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-decoration footer-decoration-left">
-        ✦
-      </div>
-
       <div className="footer-content">
 
         {/* Brand */}
@@ -146,10 +142,6 @@ const Footer = () => {
         <p>
           © 2026 TastyBites. All rights reserved.
         </p>
-      </div>
-
-      <div className="footer-decoration footer-decoration-right">
-        ✦
       </div>
     </footer>
   );
